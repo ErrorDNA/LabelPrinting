@@ -1,1 +1,0 @@
-E:\work\C#\LabelPrint\LabelPrint\LabelPrint\bin\Debug\LabelPrint.exe.config
