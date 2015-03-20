@@ -1,0 +1,12 @@
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\bin\Debug\LabelPrint.exe.config
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\bin\Debug\LabelPrint.exe
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\bin\Debug\LabelPrint.pdb
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrinting.csprojResolveAssemblyReference.cache
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrint.LabelPrintMainForm.resources
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrint.Properties.Resources.resources
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrinting.csproj.GenerateResource.Cache
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrint.exe
+E:\work\C#\LabelPrint\LabelPrint\LabelPrint\obj\Debug\LabelPrint.pdb
+E:\work\C#\LabelPrinting\LabelPrint\bin\Debug\LabelPrint.exe.config
+E:\work\C#\LabelPrinting\LabelPrint\obj\Debug\LabelPrint.exe
+E:\work\C#\LabelPrinting\LabelPrint\obj\Debug\LabelPrint.pdb
