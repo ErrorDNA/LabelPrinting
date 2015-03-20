@@ -43,8 +43,8 @@
             this.OrderName = new System.Windows.Forms.TextBox();
             this.CountItemsInBox = new System.Windows.Forms.TextBox();
             this.SerialNumber = new System.Windows.Forms.TextBox();
-            this.NumberStart = new System.Windows.Forms.TextBox();
-            this.NumberFinish = new System.Windows.Forms.TextBox();
+            this.LabelPrintMainFormNumberStart = new System.Windows.Forms.TextBox();
+            this.LabelPrintMainFormNumberFinish = new System.Windows.Forms.TextBox();
             this.TotalCount = new System.Windows.Forms.TextBox();
             this.PrintButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
@@ -173,19 +173,19 @@
             this.SerialNumber.Size = new System.Drawing.Size(154, 20);
             this.SerialNumber.TabIndex = 14;
             // 
-            // NumberStart
+            // LabelPrintMainFormNumberStart
             // 
-            this.NumberStart.Location = new System.Drawing.Point(15, 250);
-            this.NumberStart.Name = "NumberStart";
-            this.NumberStart.Size = new System.Drawing.Size(154, 20);
-            this.NumberStart.TabIndex = 15;
+            this.LabelPrintMainFormNumberStart.Location = new System.Drawing.Point(15, 250);
+            this.LabelPrintMainFormNumberStart.Name = "LabelPrintMainFormNumberStart";
+            this.LabelPrintMainFormNumberStart.Size = new System.Drawing.Size(154, 20);
+            this.LabelPrintMainFormNumberStart.TabIndex = 15;
             // 
-            // NumberFinish
+            // LabelPrintMainFormNumberFinish
             // 
-            this.NumberFinish.Location = new System.Drawing.Point(219, 250);
-            this.NumberFinish.Name = "NumberFinish";
-            this.NumberFinish.Size = new System.Drawing.Size(154, 20);
-            this.NumberFinish.TabIndex = 16;
+            this.LabelPrintMainFormNumberFinish.Location = new System.Drawing.Point(219, 250);
+            this.LabelPrintMainFormNumberFinish.Name = "LabelPrintMainFormNumberFinish";
+            this.LabelPrintMainFormNumberFinish.Size = new System.Drawing.Size(154, 20);
+            this.LabelPrintMainFormNumberFinish.TabIndex = 16;
             // 
             // TotalCount
             // 
@@ -202,6 +202,7 @@
             this.PrintButton.TabIndex = 18;
             this.PrintButton.Text = "Печать";
             this.PrintButton.UseVisualStyleBackColor = true;
+            this.PrintButton.Click += new System.EventHandler(this.PrintButton_Click);
             // 
             // ExitButton
             // 
@@ -211,6 +212,7 @@
             this.ExitButton.TabIndex = 19;
             this.ExitButton.Text = "Выход";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // LabelPrintMainForm
             // 
@@ -220,8 +222,8 @@
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.PrintButton);
             this.Controls.Add(this.TotalCount);
-            this.Controls.Add(this.NumberFinish);
-            this.Controls.Add(this.NumberStart);
+            this.Controls.Add(this.LabelPrintMainFormNumberFinish);
+            this.Controls.Add(this.LabelPrintMainFormNumberStart);
             this.Controls.Add(this.SerialNumber);
             this.Controls.Add(this.CountItemsInBox);
             this.Controls.Add(this.OrderName);
@@ -261,8 +263,8 @@
         private System.Windows.Forms.TextBox OrderName;
         private System.Windows.Forms.TextBox CountItemsInBox;
         private System.Windows.Forms.TextBox SerialNumber;
-        private System.Windows.Forms.TextBox NumberStart;
-        private System.Windows.Forms.TextBox NumberFinish;
+        private System.Windows.Forms.TextBox LabelPrintMainFormNumberStart;
+        private System.Windows.Forms.TextBox LabelPrintMainFormNumberFinish;
         private System.Windows.Forms.TextBox TotalCount;
         private System.Windows.Forms.Button PrintButton;
         private System.Windows.Forms.Button ExitButton;
